@@ -242,10 +242,11 @@ body.dark-mode .div-three {
 .div-two {
     border-radius: 2%;
     margin-top: 10%;
-    height: 250vh;
+    height: auto;
    background-color: #fff;
    margin-left: 30%;
    width: 40vw;
+   transition: height 0.3s ease-in-out;
 }
 
 .about{
@@ -297,6 +298,9 @@ body.dark-mode .div-three {
 .work-imgs:hover{
   transition: .5s ease-in-out;
     width: 95%;
+}
+.work-containers{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .work-container-one{
     display: flex;
@@ -461,4 +465,116 @@ height: 450vh;
     .div-three{
          display: none; 
     }
+}
+
+.work-containers{
+    text-align: center;
+    
+  justify-content: center;
+}
+.work{
+    padding: 5px 10px 5px 10px;
+margin-top: 20px;
+    background-color: #61f30083;
+    border-radius: 10%;
+}
+.work p{
+    text-align: justify;
+    text-justify: inter-word;    
+}
+.work:hover{
+    cursor: pointer;
+    background-color: #61f30050;
+    transition: .2s linear;
+    
+}
+
+.work-two{
+margin-top: 20px;
+background-color: #00ebf380;
+}
+.work-two:hover{
+    cursor: pointer;
+    background-color: #00ebf34b;    
+}
+
+.work-three{
+margin-top: 20px;
+background-color: #0018f373;
+}
+.work-three:hover{
+    cursor: pointer;
+    background-color: #0018f315;
+}
+
+.work-four{
+margin-top: 20px;
+background-color: #9a00f37e;
+}
+.work-four:hover{
+    cursor: pointer;
+    background-color: #9a00f315;
+}
+
+.work-five{
+margin-top: 20px;
+background-color: #f300356e;
+}
+.work-five:hover{
+    cursor: pointer;
+    background-color: #f3003515;  
+}
+
+.work-six{
+    margin-top: 20px;
+    background-color: #00ebf380;
+    }
+    .work-six:hover{
+        cursor: pointer;
+        background-color: #00ebf34b;    
+    }
+    
+    .work-seven{
+    margin-top: 20px;
+    background-color: #0018f373;
+    }
+    .work-seven:hover{
+        cursor: pointer;
+        background-color: #0018f315;
+    }
+    
+    .work-eight{
+    margin-top: 20px;
+    background-color: #9a00f37e;
+    }
+    .work-eight:hover{
+        cursor: pointer;
+        background-color: #9a00f315;
+    }
+    
+    .work-nine{
+    margin-top: 20px;
+    background-color: #f300356e;
+    }
+    .work-nine:hover{
+        cursor: pointer;
+        background-color: #f3003515;  
+    }
+.see-more-projects{
+    display: none;
+}
+
+
+.see-more {
+    cursor: pointer;
+    padding:15px 30px;
+    background-color: #007bff; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.see-more:hover {
+    background-color: #0056b3; /* Darker shade on hover */
 }
