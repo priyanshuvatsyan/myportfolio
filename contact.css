@@ -436,7 +436,7 @@ body.dark-mode .div-three {
     .div-two{/*   margin-top: 350%; */
         width: 86.5vw;
         margin: 0;
-        height: 100vh;
+        height: auto;
     }
     .about{
         padding: 2px 10px;

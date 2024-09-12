@@ -31,17 +31,26 @@ document.addEventListener('DOMContentLoaded', () => {
         sunIcon.style.display = 'none';
     }
 });
-
 let respNavBtn = document.getElementById("resp-nav-btn");
+
 function nav() {
     console.log("Triggered");
+
     let responsiveNavItems = document.getElementsByClassName("responsive-nav");
-    
+
+    // Loop through each nav item to toggle its display
     for (let index = 0; index < responsiveNavItems.length; index++) {
-        responsiveNavItems[index].style.display = "flex";
+        // Check if the current item is hidden or visible
+        if (responsiveNavItems[index].style.display === "none" || responsiveNavItems[index].style.display === "") {
+            responsiveNavItems[index].style.display = "flex";  // Show the items
+        } else {
+            responsiveNavItems[index].style.display = "none";  // Hide the items
+        }
     }
+
     console.log("Completed");
 }
+
 
 /* function clear() {
     console.log("trig 1");
