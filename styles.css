@@ -240,6 +240,12 @@ body.dark-mode .div-three {
     color: #fff;
    /*  padding: 8px 40px; */
 }
+.resume{
+    border-radius: 10%;
+     background-color: #2d61f0; 
+     color: #fff;
+     padding: 8px 40px; 
+}
 
                 /* Div 2*/
 .div-two {
