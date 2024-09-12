@@ -81,19 +81,22 @@ body.dark-mode .div-three {
     font-size: 30px;
     cursor: pointer; 
 }
-.responsive-nav{
-   
-    transition: .2s ease-in-out;
-    align-items: center;
-    top: 130px;
-    left: 40%;
+.responsive-nav {
+    transition: all 0.4s ease-in-out; /* Smoother transition for all properties */
     position: absolute;
+    top: 150%;  /* Center vertically */
+    left: 70%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust position to make it centered */
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #fff;
     width: 40%;
     padding: 20px 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for better design */
+    border-radius: 8px; /* Optional: Add rounded corners */
 }
+
 .responsive-nav{
      display: none; 
 }
@@ -233,9 +236,9 @@ body.dark-mode .div-three {
 
 .div-one a {
     border-radius: 10%;
-    background-color: #2d61f0;
+   /*  background-color: #2d61f0; */
     color: #fff;
-    padding: 8px 40px;
+   /*  padding: 8px 40px; */
 }
 
                 /* Div 2*/
@@ -435,6 +438,17 @@ body.dark-mode .div-three {
     }
     .contact-info p{
         font-size: 10px;
+    }
+
+}
+@media only screen  and (min-width:1450px) and (max-width: 1700px) {
+    
+    .contact-info .bi{
+        margin-left: -15px;
+       font-size: 20px;
+    }
+    .contact-info p{
+        font-size: 13px;
     }
 
 }

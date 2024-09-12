@@ -233,10 +233,11 @@ body.dark-mode .div-three {
 
 .div-one a {
     border-radius: 10%;
-    background-color: #2d61f0;
+   /*  background-color: #2d61f0; */
     color: #fff;
-    padding: 8px 40px;
+   /*  padding: 8px 40px; */
 }
+
 
                 /* Div 2*/
 .div-two {
